@@ -304,8 +304,8 @@ func generate(release *github.RepositoryRelease, output string, cnOutput string,
 	if err != nil {
 		return err
 	}
-	filterTags(domainMap)
-	mergeTags(domainMap)
+	// filterTags(domainMap)
+	// mergeTags(domainMap)
 	outputPath, _ := filepath.Abs(output)
 	os.Stderr.WriteString("write " + outputPath + "\n")
 	outputFile, err := os.Create(output)
