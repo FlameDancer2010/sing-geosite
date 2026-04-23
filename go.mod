@@ -1,4 +1,4 @@
-module github.com/sagernet/sing-geosite
+module github.com/flamedancer2010/sing-geosite
 
 go 1.21
 
